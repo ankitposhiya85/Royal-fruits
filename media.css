@@ -1,0 +1,83 @@
+@media (max-width: 1000px) {
+    .main_text {
+        font-size: 55px;
+        font-weight: 700;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .sub_text {
+        width: 100%;
+        text-align: center;
+        margin: 50px auto;
+        
+    }
+}
+
+@media (max-width: 600px){
+    .main_text {
+        font-size: 35px;
+        line-height: 155%;
+        height: 220px;
+        margin: 40px auto;
+    }
+    .main_btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec_btn1 {
+        margin: 5px 0;
+    }
+    .sec_btn2 {
+        margin: 5px 0;
+    }
+
+    .section1 {
+        margin-bottom: 200px;
+    }
+}
+
+@media (max-width: 400px){
+    .artist {
+        width: 310px;
+    }
+
+    .section3 {
+        text-align: center;
+    }
+
+    .process {
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .section4 {
+        text-align: center;
+    }
+
+    .logo_footer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .footer_title {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .subscribe {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .social {
+        justify-content: center;
+    }
+}
